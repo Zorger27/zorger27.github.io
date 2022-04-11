@@ -1,0 +1,316 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+.d-grid{
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 3px 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto 3px auto;
+    grid-template-rows: auto auto;
+    grid-gap: 3px;
+}.d-grid > *:nth-child(1){
+     -ms-grid-row: 1;
+     -ms-grid-column: 1;
+ }.d-grid > *:nth-child(2){
+      -ms-grid-row: 1;
+      -ms-grid-column: 3;
+  }.d-grid > *:nth-child(3){
+       -ms-grid-row: 3;
+       -ms-grid-column: 1;
+   }.d-grid > *:nth-child(4){
+        -ms-grid-row: 3;
+        -ms-grid-column: 3;
+    }
+.d-flex{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: normal;
+    -ms-flex-pack: normal;
+    justify-content: normal;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+}
+/*.block{*/
+/*    padding: 0.5rem;*/
+/*    border: black solid 1px;*/
+/*}*/
+.attention{
+    color: #a20909;
+}
+.attention:hover{
+    color: red;
+}
+.grid-container1{
+    grid-template-areas:
+            "contact educations"
+            "zrg educations"
+            "projects experience"
+            "personality hard-skills"
+            "languages soft-skills";
+}
+.grid-container1 div:nth-child(2){
+    -ms-grid-row: 1;
+    grid-row-start: 1;
+    -ms-grid-row-span: 2;
+    grid-row-end: 3;
+}
+.contact{
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: contact;
+    padding: 0.2rem 0;
+}
+.contact div:nth-child(1){
+    padding:0 0.3rem;
+}
+.logo-image{
+    width: 4rem;
+    border: 2px solid transparent;
+    border-radius: 5px;
+}
+.logo-image:hover{
+    border-color: #9f18bd;
+}
+.educations{
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+    grid-area: educations;
+}
+.educations p{
+    padding: 0.3rem;
+}
+.zrg{
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: zrg;
+}
+.zrg p{
+    padding: 0.3rem;
+}
+.experience{
+    -ms-grid-row: 3;
+    -ms-grid-column: 2;
+    grid-area: experience;
+}
+.experience p{
+    padding: 0.3rem;
+}
+.projects{
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    grid-area: projects;
+}
+.projects ol{
+    padding: 0 1.3rem;
+}
+.hard-skills{
+    -ms-grid-row: 4;
+    -ms-grid-column: 2;
+    grid-area: hard-skills;
+}
+.hard-skills ul{
+    list-style: none;
+    padding: 0;
+}
+.hard-skills span{
+    font-weight: bold;
+    margin-right: 1rem;
+}
+.personality{
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
+    grid-area: personality;
+    padding: 0.5rem 0;
+}
+.personality ul{
+    list-style-type: square;
+    padding: 0 1.3rem;
+}
+.soft-skills{
+    -ms-grid-row: 5;
+    -ms-grid-column: 2;
+    grid-area: soft-skills;
+}
+.soft-skills ul{
+    list-style: none;
+    padding: 0;
+}
+.soft-skills span{
+    font-weight: bold;
+    margin-right: 1rem;
+}
+.languages{
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
+    grid-area: languages;
+}
+.grid-container2{
+    grid-template-areas:
+            "backend frontend"
+            "others frontend";
+}
+.grid-container2 div:nth-child(2){
+    -ms-grid-row: 1;
+    grid-row-start: 1;
+    -ms-grid-row-span: 2;
+    grid-row-end: 3;
+}
+.diplom{
+    list-style-type: upper-roman;
+}
+.backend{
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: backend;
+}
+.backend ol{
+    padding: 0 2rem;
+}
+.frontend{
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 2;
+    grid-area: frontend;
+}
+.frontend ol{
+    padding: 0 2rem;
+}
+.others{
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: others;
+}
+.others ol{
+    padding: 0 2rem;
+}
+@media(min-width:1020px){
+    svg{
+        max-width: 20rem;
+    }
+}
+@media(max-width:1020px) {
+    .grid-container1,
+    .grid-container2{
+        font-size: 20px;
+    }
+    .logo-image{
+        width: 2.4rem;
+    }
+    .contact div:nth-child(2){
+        padding: 0.2rem 0.4rem;
+    }
+}
+@media(max-width:768px) {
+    .grid-container1,
+    .grid-container2{
+        font-size: 16px;
+    }
+    .logo-image{
+        width: 2.8rem;
+    }
+    .contact{
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .contact div:nth-child(2){
+        padding: 0.2rem 0.4rem;
+    }
+}
+@media(max-width:480px) {
+    .grid-container1{
+        font-size: 13px;
+        grid-template-areas:
+        "contact"
+        "zrg"
+        "projects"
+        "educations"
+        "languages"
+        "experience"
+        "personality"
+        "hard-skills"
+        "soft-skills";
+    }
+    .grid-container1 div:nth-child(2){
+        grid-row: unset;
+    }
+    .grid-container2 {
+        font-size: 13px;
+        grid-template-areas:
+        "frontend"
+        "backend"
+        "others";
+    }
+    .grid-container2 div:nth-child(2){
+        grid-row: unset;
+    }
+    .contact{
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .contact div:nth-child(2){
+        padding: 0.2rem 0.4rem;
+    }
+    .logo-image{
+        width: 2.8rem;
+    }
+    .contact{
+        -ms-grid-row: 1;
+        -ms-grid-column: 1;
+    }
+    .educations{
+        -ms-grid-row: 4;
+        -ms-grid-row-span: 1;
+        -ms-grid-column: 1;
+    }
+    .zrg{
+        -ms-grid-row: 2;
+        -ms-grid-column: 1;
+    }
+    .experience{
+        -ms-grid-row: 6;
+        -ms-grid-column: 1;
+    }
+    .projects{
+        -ms-grid-row: 3;
+        -ms-grid-column: 1;
+    }
+    .hard-skills{
+        -ms-grid-row: 8;
+        -ms-grid-column: 1;
+    }
+    .personality{
+        -ms-grid-row: 7;
+        -ms-grid-column: 1;
+    }
+    .soft-skills{
+        -ms-grid-row: 9;
+        -ms-grid-column: 1;
+    }
+    .languages{
+        -ms-grid-row: 5;
+        -ms-grid-column: 1;
+    }
+    .backend {
+        -ms-grid-row: 2;
+        -ms-grid-column: 1;
+    }
+    .frontend {
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 1;
+        -ms-grid-column: 1;
+    }
+    .others {
+        -ms-grid-row: 3;
+        -ms-grid-column: 1;
+    }
+}
