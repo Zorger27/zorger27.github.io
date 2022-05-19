@@ -25,8 +25,9 @@
             "contact educations"
             "zrg educations"
             "projects experience"
+            "projects languages"
             "projects hard-skills"
-            "languages soft-skills";
+            "projects soft-skills";
 }
 /*.grid-container1 div:nth-child(2){*/
 /*    grid-row-start: 1;*/
@@ -53,6 +54,7 @@
 }
 .educations{
     grid-area: educations;
+    padding: 0.3rem 0 0.3rem 0;
 }
 .educations p{
     padding: 0.3rem;
@@ -65,18 +67,21 @@
 }
 .experience{
     grid-area: experience;
+    padding: 0.3rem 0 0.3rem 0;
 }
 .experience p{
     padding: 0.3rem;
 }
 .projects{
     grid-area: projects;
+    padding: 0.3rem 0 0.3rem 0;
 }
 .projects ol{
     padding: 0 1.3rem;
 }
 .hard-skills{
     grid-area: hard-skills;
+    padding: 0.3rem 0 0.3rem 0;
 }
 .hard-skills ul{
     list-style: none;
@@ -86,16 +91,9 @@
     font-weight: bold;
     margin-right: 1rem;
 }
-/*.personality{*/
-/*    grid-area: personality;*/
-/*    padding: 0.5rem 0;*/
-/*}*/
-/*.personality ul{*/
-/*    list-style-type: square;*/
-/*    padding: 0 1.3rem;*/
-/*}*/
 .soft-skills{
     grid-area: soft-skills;
+    padding: 0.3rem 0 0.3rem 0;
 }
 .soft-skills ul{
     list-style: none;
@@ -107,6 +105,7 @@
 }
 .languages{
     grid-area: languages;
+    padding: 0.3rem 0 0.3rem 0;
 }
 .grid-container2{
     grid-template-areas:
@@ -122,18 +121,21 @@
 }
 .backend{
     grid-area: backend;
+    padding: 0.3rem 0 0.3rem 0;
 }
 .backend ol{
     padding: 0 2rem;
 }
 .frontend{
     grid-area: frontend;
+    padding: 0.3rem 0 0.3rem 0;
 }
 .frontend ol{
     padding: 0 2rem;
 }
 .others{
     grid-area: others;
+    padding: 0.3rem 0 0.3rem 0;
 }
 .others ol{
     padding: 0 2rem;
