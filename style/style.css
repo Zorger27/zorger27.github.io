@@ -45,7 +45,7 @@
     padding:0 0.3rem;
 }
 .logo-image{
-    width: 4rem;
+    width: 4.7rem;
     border: 2px solid transparent;
     border-radius: 5px;
 }
@@ -205,6 +205,6 @@
         padding: 0.2rem 0.4rem;
     }
     .logo-image{
-        width: 2.8rem;
+        width: 2.7rem;
     }
 }
