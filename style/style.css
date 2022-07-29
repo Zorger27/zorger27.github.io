@@ -65,6 +65,10 @@
 .zrg p{
     padding: 0.3rem;
 }
+.zrg h3 {
+    margin: 0.3rem;
+    color: darkblue;
+}
 .experience{
     grid-area: experience;
     padding: 0.3rem 0 0.3rem 0;
