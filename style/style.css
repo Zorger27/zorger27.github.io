@@ -178,7 +178,8 @@
 }
 @media(max-width:480px) {
     .grid-container1{
-        font-size: 13px;
+        font-size: 15px;
+        grid-template-columns: 1fr;
         grid-template-areas:
         "contact"
         "zrg"
@@ -193,7 +194,8 @@
     /*    grid-row: unset;*/
     /*}*/
     .grid-container2 {
-        font-size: 13px;
+        font-size: 15px;
+        grid-template-columns: 1fr;
         grid-template-areas:
         "frontend"
         "backend"
@@ -208,7 +210,17 @@
     .contact div:nth-child(2){
         padding: 0.2rem 0.4rem;
     }
+    .photo {
+        padding: 0;
+        margin: 0 auto;
+    }
+    svg {
+        width: 25rem;
+    }
+    .cont-ico {
+        margin: 0 auto;
+    }
     .logo-image{
-        width: 2.7rem;
+        width: 3.0rem;
     }
 }
