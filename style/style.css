@@ -118,10 +118,6 @@
             "backend frontend"
             "others frontend";
 }
-/*.grid-container2 div:nth-child(2){*/
-/*    grid-row-start: 1;*/
-/*    grid-row-end: 3;*/
-/*}*/
 .diplom{
     list-style-type: upper-roman;
 }
@@ -152,9 +148,26 @@
     }
 }
 @media(max-width:1020px) {
-    .grid-container1,
-    .grid-container2{
+    .grid-container1{
         font-size: 20px;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "contact"
+        "zrg"
+        "projects"
+        "educations"
+        "languages"
+        "experience"
+        "hard-skills"
+        "soft-skills";
+    }
+    .grid-container2 {
+        font-size: 20px;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "frontend"
+        "backend"
+        "others";
     }
     .logo-image{
         width: 2.4rem;
@@ -162,6 +175,10 @@
     .contact div:nth-child(2){
         padding: 0.2rem 0.4rem;
     }
+    .contact{
+        flex-wrap: wrap;
+    }
+
     .cont-ico {
         display: flex;
         flex-wrap: wrap;
@@ -183,7 +200,7 @@
         "soft-skills";
     }
     .grid-container2 {
-        font-size: 15px;
+        font-size: 16px;
         grid-template-columns: 1fr;
         grid-template-areas:
         "frontend"
