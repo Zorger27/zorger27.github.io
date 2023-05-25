@@ -31,6 +31,7 @@
 }
 .contact{
     grid-area: contact;
+    justify-content: center;
     padding: 0.2rem 0;
 }
 .contact div:nth-child(1){
