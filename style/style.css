@@ -171,9 +171,26 @@
     }
 }
 @media(max-width:768px) {
-    .grid-container1,
-    .grid-container2{
+    .grid-container1{
         font-size: 16px;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "contact"
+        "zrg"
+        "projects"
+        "educations"
+        "languages"
+        "experience"
+        "hard-skills"
+        "soft-skills";
+    }
+    .grid-container2 {
+        font-size: 15px;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "frontend"
+        "backend"
+        "others";
     }
     .logo-image{
         width: 2.8rem;
@@ -199,9 +216,6 @@
         "hard-skills"
         "soft-skills";
     }
-    /*.grid-container1 div:nth-child(2){*/
-    /*    grid-row: unset;*/
-    /*}*/
     .grid-container2 {
         font-size: 15px;
         grid-template-columns: 1fr;
@@ -210,9 +224,6 @@
         "backend"
         "others";
     }
-    /*.grid-container2 div:nth-child(2){*/
-    /*    grid-row: unset;*/
-    /*}*/
     .contact{
         flex-wrap: wrap;
     }
