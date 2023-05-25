@@ -154,7 +154,7 @@
 @media(max-width:1020px) {
     .grid-container1,
     .grid-container2{
-        font-size: 20px;
+        font-size: 16px;
     }
     .logo-image{
         width: 2.4rem;
@@ -162,44 +162,17 @@
     .contact div:nth-child(2){
         padding: 0.2rem 0.4rem;
     }
-    .cont-ico {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
 }
 @media(max-width:768px) {
-    .grid-container1{
-        font-size: 16px;
-        grid-template-columns: 1fr;
-        grid-template-areas:
-        "contact"
-        "zrg"
-        "projects"
-        "educations"
-        "languages"
-        "experience"
-        "hard-skills"
-        "soft-skills";
-    }
-    .grid-container2 {
-        font-size: 16px;
-        grid-template-columns: 1fr;
-        grid-template-areas:
-        "frontend"
-        "backend"
-        "others";
+    .grid-container1,
+    .grid-container2{
+        font-size: 20px;
     }
     .logo-image{
         width: 2.8rem;
     }
     .contact{
         flex-wrap: wrap;
-    }
-    .cont-ico {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
     }
     .contact div:nth-child(2){
         padding: 0.2rem 0.4rem;
