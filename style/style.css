@@ -25,9 +25,9 @@
             "contact educations"
             "zrg educations"
             "projects experience"
-            "projects languages"
-            "projects hard-skills"
-            "projects soft-skills";
+            "hard-skills experience"
+            "soft-skills experience"
+            "languages experience";
 }
 /*.grid-container1 div:nth-child(2){*/
 /*    grid-row-start: 1;*/
@@ -43,6 +43,11 @@
 }
 .contact div:nth-child(1){
     padding:0 0.3rem;
+}
+.cont-ico {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .logo-image{
     width: 4.7rem;
@@ -65,9 +70,13 @@
 .zrg p{
     padding: 0.3rem;
 }
+.zrg h2 {
+    text-align: center;
+}
 .zrg h3 {
     margin: 0.3rem;
     color: darkblue;
+    text-align: center;
 }
 .experience{
     grid-area: experience;
