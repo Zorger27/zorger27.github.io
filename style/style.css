@@ -29,14 +29,6 @@
             "soft-skills experience"
             "languages experience";
 }
-/*.grid-container1 div:nth-child(2){*/
-/*    grid-row-start: 1;*/
-/*    grid-row-end: 3;*/
-/*}*/
-/*.grid-container1 div:nth-child(5){*/
-/*    grid-row-start: 3;*/
-/*    grid-row-end: 5;*/
-/*}*/
 .contact{
     grid-area: contact;
     padding: 0.2rem 0;
@@ -169,6 +161,11 @@
     .contact div:nth-child(2){
         padding: 0.2rem 0.4rem;
     }
+    .cont-ico {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
 @media(max-width:768px) {
     .grid-container1{
@@ -197,6 +194,11 @@
     }
     .contact{
         flex-wrap: wrap;
+    }
+    .cont-ico {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     .contact div:nth-child(2){
         padding: 0.2rem 0.4rem;
@@ -239,7 +241,11 @@
     }
     .cont-ico {
         margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
+
     .logo-image{
         width: 3.0rem;
     }
