@@ -46,6 +46,7 @@
     width: 4.7rem;
     border: 2px solid transparent;
     border-radius: 5px;
+    margin: 0.1rem;
 }
 .logo-image:hover{
     border-color: #9f18bd;
@@ -157,7 +158,7 @@
         font-size: 16px;
     }
     .logo-image{
-        width: 2.4rem;
+        width: 3.7rem;
     }
     .contact div:nth-child(2){
         padding: 0.2rem 0.4rem;
@@ -169,7 +170,7 @@
         font-size: 20px;
     }
     .logo-image{
-        width: 2.8rem;
+        width: 3.7rem;
     }
     .contact{
         flex-wrap: wrap;
@@ -177,6 +178,7 @@
     .contact div:nth-child(2){
         padding: 0.2rem 0.4rem;
     }
+    body line{width:100%;}
 }
 @media(max-width:480px) {
     .grid-container1{
@@ -221,6 +223,7 @@
     }
 
     .logo-image{
-        width: 3.0rem;
+        width: 3.7rem;
     }
+    body line{width:100%;}
 }
