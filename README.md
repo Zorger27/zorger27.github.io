@@ -1,6 +1,6 @@
 # MY Curriculum VITAE (Landing page) #
-### You can view my site here: [Curriculum VITAE](https://zorger27.github.io). ###
-### You can view my Portfolio here: [My Portfolio](https://Zorin.Expert). ###
+### You can view my CV (Landing Page) here: [Curriculum VITAE](https://zorger27.github.io)❗️ ###
+### You can view my Portfolio (SPA) here: [My Portfolio](https://Zorin.Expert)❗️ ###
 ### Website is adaptive. ###
 ### Technologies: HTML5, CSS3, Grid CSS, FlexBox CSS ###
 ### Site screenshots: ###
