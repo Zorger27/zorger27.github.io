@@ -225,5 +225,8 @@
     .logo-image{
         width: 3.7rem;
     }
+    .zrg h3 {
+        font-size: 1.35rem;
+    }
     body line{width:100%;}
 }
