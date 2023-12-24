@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://zorger27.github.io/sitemap.xml
