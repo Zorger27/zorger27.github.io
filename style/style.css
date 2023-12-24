@@ -159,6 +159,7 @@
     }
     .logo-image{
         width: 3.7rem;
+        height: 3.7rem;
     }
     .contact div:nth-child(2){
         padding: 0.2rem 0.4rem;
@@ -171,6 +172,7 @@
     }
     .logo-image{
         width: 3.7rem;
+        height: 3.7rem;
     }
     .contact{
         flex-wrap: wrap;
@@ -224,6 +226,7 @@
 
     .logo-image{
         width: 3.7rem;
+        height: 3.7rem;
     }
     .zrg h3 {
         font-size: 1.35rem;
