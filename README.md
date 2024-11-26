@@ -3,7 +3,7 @@
 ### This modern and adaptive Landing Page succinctly and visually presents my professional information. ###
 
 💼 <ins>Site Structure:</ins><br/>
-1️⃣ About Me: projects with GitHub links, skills, languages, education, and work experience.<br/>
+1️⃣ About Me: projects with GitHub links, skills, languages, education and work experience.<br/>
 2️⃣ Diplomas and Certificates: achievements in backend, frontend, design, databases, project management and English.
 
 📱 The site is fully responsive and works seamlessly on devices of any size.
@@ -13,7 +13,7 @@
 ✨ JavaScript for interactivity.<br/>
 ✨ Google Analytics & Search Console for analysis and optimization.
 
-#### 🔗 *The site showcases my skills in creating modern, responsive, and functional web applications, highlighting attention to detail and quality.* ####
+#### 🔗 *The site showcases my skills in creating modern, responsive and functional web applications, highlighting attention to detail and quality.* ####
 
 ### You can view my CV here: [Curriculum VITAE](https://zorger27.github.io)❗️ ###
 ### You can view my Portfolio here: [My Portfolio](https://Zorin.Expert)❗️ ###
