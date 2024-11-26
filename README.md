@@ -1,6 +1,6 @@
 # My Curriculum VITAE #
 
-### *This modern and adaptive Landing Page succinctly and visually presents my professional information.* ###
+### This modern and adaptive Landing Page succinctly and visually presents my professional information. ###
 
 💼 <ins>Site Structure:</ins><br/>
 1️⃣ About Me: projects with GitHub links, skills, languages, education, and work experience.<br/>
