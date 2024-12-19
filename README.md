@@ -1,6 +1,6 @@
 # My Curriculum VITAE #
 
-### This modern and adaptive Landing Page succinctly and visually presents my professional information. ###
+### ✨ This modern and adaptive Landing Page succinctly and visually presents my professional information. 🌟 ###
 
 💼 <ins>Site Structure:</ins><br/>
 1️⃣ About Me: projects with GitHub links, skills, languages, education and work experience.<br/>
@@ -9,12 +9,12 @@
 📱 The site is fully responsive and works seamlessly on devices of any size.
 
 🛠️ <ins>Technologies:</ins><br/>
-✨ HTML5, CSS3 (Grid, FlexBox) — for design and structure.<br/>
-✨ JavaScript — for interactivity.<br/>
-✨ Google Analytics & Search Console — for analysis and optimization.<br/>
-✨ Open Graph Protocol, Favicon, Sitemap, Robots.txt — for SEO optimization and social media integration.
+✅ HTML5, CSS3 (Grid, FlexBox) — for design and structure.<br/>
+✅ JavaScript — for interactivity.<br/>
+✅ Google Analytics & Search Console — for analysis and optimization.<br/>
+✅ Open Graph Protocol, Favicon, Sitemap, Robots.txt — for SEO optimization and social media integration.
 
-#### 🔗 *The site showcases my skills in creating modern, responsive and functional web applications, highlighting attention to detail and quality.* ####
+#### 💻 *The site showcases my skills in creating modern, responsive and functional web applications, highlighting attention to detail and quality.* 🚀 ####
 
 ### You can view my CV here: [Curriculum VITAE](https://zorger27.github.io)❗️ ###
 ### You can view my Portfolio here: [My Portfolio](https://Zorin.Expert)❗️ ###
