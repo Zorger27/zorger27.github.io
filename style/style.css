@@ -55,7 +55,7 @@
 }
 .photo {
     max-width: 100%; /* Максимальная ширина контейнера */
-    margin: 0 auto; /* Центрирование контейнера */
+    margin: 0 4rem;
 }
 .responsive-image {
     width: 100%; /* Ширина изображения будет 100% от ширины контейнера */
@@ -167,7 +167,9 @@
     .contact{
         flex-direction: column;
     }
-
+    .photo {
+        margin: 0 3.5rem;
+    }
     .contact div:nth-child(2){
         padding: 0.2rem 0.4rem;
     }
@@ -216,6 +218,9 @@
     }
     .contact div:nth-child(2){
         padding: 0.2rem 0.4rem;
+    }
+    .photo {
+        margin: 0 4rem;
     }
     .cont-ico {
         margin: 0 auto;
