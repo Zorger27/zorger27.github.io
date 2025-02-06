@@ -33,6 +33,7 @@
     grid-area: contact;
     justify-content: center;
     padding: 0.2rem 0;
+    flex-direction: row;
 }
 .contact div:nth-child(1){
     padding:0 0.3rem;
@@ -51,6 +52,15 @@
 }
 .logo-image:hover{
     border-color: #9f18bd;
+}
+.photo {
+    max-width: 100%; /* Максимальная ширина контейнера */
+    margin: 0 auto; /* Центрирование контейнера */
+}
+.responsive-image {
+    width: 100%; /* Ширина изображения будет 100% от ширины контейнера */
+    height: auto; /* Высота изменяется автоматически, чтобы сохранить пропорции */
+    display: block; /* Убирает лишние отступы вокруг изображения */
 }
 .educations{
     grid-area: educations;
@@ -120,10 +130,6 @@
             "backend frontend"
             "others frontend";
 }
-/*.grid-container2 div:nth-child(2){*/
-/*    grid-row-start: 1;*/
-/*    grid-row-end: 3;*/
-/*}*/
 .diplom{
     list-style-type: upper-roman;
 }
@@ -148,11 +154,7 @@
 .others ol{
     padding: 0 2rem;
 }
-@media(min-width:1020px){
-    svg{
-        max-width: 20rem;
-    }
-}
+
 @media(max-width:1020px) {
     .grid-container1,
     .grid-container2{
@@ -162,6 +164,10 @@
         width: 3.7rem;
         height: 3.7rem;
     }
+    .contact{
+        flex-direction: column;
+    }
+
     .contact div:nth-child(2){
         padding: 0.2rem 0.4rem;
     }
@@ -210,13 +216,6 @@
     }
     .contact div:nth-child(2){
         padding: 0.2rem 0.4rem;
-    }
-    .photo {
-        padding: 0;
-        margin: 0 auto;
-    }
-    svg {
-        width: 25rem;
     }
     .cont-ico {
         margin: 0 auto;
