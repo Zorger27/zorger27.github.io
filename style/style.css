@@ -50,9 +50,8 @@
     border-radius: 5px;
     margin: 0.1rem;
 }
-.logo-image:hover{
-    border-color: #9f18bd;
-}
+.logo-image:hover{border-color: #9f18bd;}
+
 .photo {
     max-width: 100%; /* Максимальная ширина контейнера */
     margin: 0 4rem;
