@@ -6,11 +6,7 @@
 1️⃣ About Me: projects with GitHub links, skills, languages, education and work experience.<br/>
 2️⃣ Diplomas and Certificates: achievements in backend, frontend, design, databases, project management and English.
 
-<<<<<<< HEAD
-📱 The site is fully responsive and works seamlessly on devices of any size. 
-=======
-📱 The site is fully responsive and works seamlessly on devices of any size.
->>>>>>> c89134e (New start)
+### 📱 The site is fully responsive and works seamlessly on devices of any size. ###
 
 🛠️ <ins>Technologies:</ins><br/>
 ✅ HTML5, CSS3 (Grid, FlexBox) — for design and structure.<br/>
