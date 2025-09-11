@@ -14,12 +14,10 @@
 /*    padding: 0.5rem;*/
 /*    border: black solid 1px;*/
 /*}*/
-.attention{
-    color: #a20909;
-}
-.attention:hover{
-    color: red;
-}
+
+.attention{color: #a20909;}
+.attention:hover{color: red;}
+
 .grid-container1{
     grid-template-areas:
             "contact educations"
