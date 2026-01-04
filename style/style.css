@@ -67,6 +67,10 @@
 .educations p{
     padding: 0.3rem;
 }
+.educations a {
+    padding: 0.25rem 0 0.25rem 1rem;
+    display: inline-block;
+}
 .zrg{
     grid-area: zrg;
 }
